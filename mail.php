@@ -1,7 +1,5 @@
 <?php 
 
-require_once('phpmailer/PHPMailerAutoload.php');
-$mail = new PHPMailer;
 $mail->CharSet = 'utf-8';
 
 $name = $_POST['name'];
